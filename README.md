@@ -18,7 +18,6 @@ Este repositorio contiene el análisis bioinformático de la serie **GSE245700**
 ##  Integrantes del Grupo
 * **LauraR2177**
 * **julioamaya-bioinf**
-*
 
 ##  Licencia
 Este proyecto está bajo la Licencia MIT.
