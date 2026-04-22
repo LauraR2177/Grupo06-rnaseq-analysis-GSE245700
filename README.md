@@ -22,11 +22,6 @@ Este repositorio documenta el taller práctico de creación de un flujo bioinfor
 * **Distribución de Conteos:** Se observa una escala elevada en el eje Y ($5 \times 10^6$), lo que indica una alta profundidad de secuenciación.
 * **Necesidad de Normalización:** La disparidad entre la variable 'Site' y los alelos sugiere que se requiere una normalización de datos para análisis comparativos posteriores.
 
-## Descripción de variable del imagen
-- **Site:** Representa la posición genómica específica en el ADN.
-- **Ref_allele:** Es el alelo de referencia (la secuencia "normal" o estándar).
-- **Alt_allele:** Es el alelo alternativo (donde ocurre la mutación o el cambio).
-
 
 ##  Conclusión
 - El gráfico generado demuestra que los datos del estudio **GSE245700** han sido cargados y procesados exitosamente. La visualización revela una disparidad significativa en las escalas de conteos, lo que subraya la importancia de realizar una normalización de datos en etapas avanzadas del análisis bioinformático.
