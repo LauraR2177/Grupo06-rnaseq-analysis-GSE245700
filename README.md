@@ -3,22 +3,22 @@ Análisis de expresión génica diferencial en células A549 (adenocarcinoma de 
 # Análisis de Expresión Diferencial (RNA-Seq) - Grupo 06
 
 ## Propósito del Proyecto
-Investigar los sitios específicos de edición de ARN mediados por la enzima APOBEC3B (A3B), la cual está vinculada a mutaciones genómicas en el cáncer de mama, utilizando un modelo celular inducible y una metodología avanzada de identificación de variantes (DVR).
+Este repositorio documenta el taller práctico de creación de un flujo bioinformático. Se centra en la carga, exploración y visualización inicial de datos de secuenciación (RNA-Seq) provenientes del estudio GSE245700, el cual analiza perfiles transcripcionales en células de adenocarcinoma de pulmón (A549).
+
 
 ##  Objetivos
-1. Procesar los datos crudos de secuenciación contenidos en la carpeta `/datos`.
-2. Identificar genes con expresión significativamente alterada.
-3. Generar visualizaciones estadísticas para interpretar los resultados médicos.
+1. Organizar un repositorio profesional con estructura de carpetas bioinformáticas.
+2. Cargar y explorar matrices de datos reales mediante el lenguaje de programación R.
+3. Generar visualizaciones básicas (Gráficos de barras) para verificar la integridad de los datos.
 
 ## Estructura
 - `/datos`: Archivo Excel con los conteos de la serie GSE245700.
-- `/scripts`: Scripts de R para el procesamiento de datos.
-- `/resultados`: Gráficos de volcán (Volcano Plots) y mapas de calor (Heatmaps).
+- `/scripts`: Scripts de R para para la lectura y graficación de los datos.
+- `/resultados`: Capturas de pantalla del análisis y gráficos de expresión generados.
 
 ##  Hallazgos
-- Mecanismo de Regulación: La unión de A3B a estos ARN (NEAT1 y MALAT1) funciona como un mecanismo de control, ya que secuestra su propia capacidad catalítica.
-- Interacción Sistémica: Este proceso de secuestro genera un bucle de retroalimentación que termina afectando la actividad de otra enzima de la misma familia, la APOBEC3A (A3A).
-- Detección de Blancos: Se identificó que A3B se dirige específicamente a dos ARN largos no codificantes: NEAT1 y MALAT1.
+-A partir del script ejecutado en R, se generó un gráfico de barras que permite observar la distribución de los conteos.
+
 
 ##  Conclusión
 - El gráfico generado demuestra que los datos del estudio **GSE245700** han sido cargados y procesados exitosamente. La visualización revela una disparidad significativa en las escalas de conteos, lo que subraya la importancia de realizar una normalización de datos en etapas avanzadas del análisis bioinformático.
