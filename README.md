@@ -19,6 +19,11 @@ Este repositorio documenta el taller práctico de creación de un flujo bioinfor
 ##  Hallazgos
 - A partir del script ejecutado en R, se generó un gráfico de barras que permite observar la distribución de los conteos.
 
+## Descripción de variable del imagen
+ **Site:** Representa la posición genómica específica en el ADN.
+**Ref_allele:** Es el alelo de referencia (la secuencia "normal" o estándar).
+**Alt_allele:** Es el alelo alternativo (donde ocurre la mutación o el cambio).
+
 
 ##  Conclusión
 - El gráfico generado demuestra que los datos del estudio **GSE245700** han sido cargados y procesados exitosamente. La visualización revela una disparidad significativa en las escalas de conteos, lo que subraya la importancia de realizar una normalización de datos en etapas avanzadas del análisis bioinformático.
