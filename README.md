@@ -7,9 +7,9 @@ Este repositorio documenta el taller práctico de creación de un flujo bioinfor
 
 
 ##  Objetivos
-1. Organizar un repositorio profesional con estructura de carpetas bioinformáticas.
+1. Organizar un repositorio  con estructura de carpetas bioinformáticas.
 2. Cargar y explorar matrices de datos reales mediante el lenguaje de programación R.
-3. Generar visualizaciones básicas (Gráficos de barras) para verificar la integridad de los datos.
+3. Generar visualizaciones básicas (Gráficos de barras e histograma ) para verificar la integridad de los datos.
 
 ## Estructura
 - `/data`: Archivo Excel con los conteos de la serie GSE245700.
@@ -17,7 +17,8 @@ Este repositorio documenta el taller práctico de creación de un flujo bioinfor
 - `/resultados`: Capturas de pantalla del análisis y gráficos de expresión generados.
 
 ##  Hallazgos
-- A partir del script ejecutado en R, se generó un gráfico de barras que permite observar la distribución de los conteos.
+- A partir del script ejecutado en R, se generó un gráfico de barras y un histograma que permite observar la distribución de los conteos.
+  
 ### Interpretación del Gráfico de Expresión
 * **Distribución de Conteos:** Se observa una escala elevada en el eje Y ($5 \times 10^6$), lo que indica una alta profundidad de secuenciación.
 * **Necesidad de Normalización:** La disparidad entre la variable 'Site' y los alelos sugiere que se requiere una normalización de datos para análisis comparativos posteriores.
