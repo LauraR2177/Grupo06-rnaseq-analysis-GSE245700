@@ -17,7 +17,7 @@ Este repositorio documenta el taller práctico de creación de un flujo bioinfor
 - `/resultados`: Capturas de pantalla del análisis y gráficos de expresión generados.
 
 ##  Hallazgos
--A partir del script ejecutado en R, se generó un gráfico de barras que permite observar la distribución de los conteos.
+- A partir del script ejecutado en R, se generó un gráfico de barras que permite observar la distribución de los conteos.
 
 
 ##  Conclusión
