@@ -20,7 +20,7 @@ Investigar los sitios específicos de edición de ARN mediados por la enzima APO
 - Interacción Sistémica: Este proceso de secuestro genera un bucle de retroalimentación que termina afectando la actividad de otra enzima de la misma familia, la APOBEC3A (A3A).
 - Detección de Blancos: Se identificó que A3B se dirige específicamente a dos ARN largos no codificantes: NEAT1 y MALAT1.
 
-- ##Conclusión
+- ## Conclusión
 - El estudio revela un nivel de regulación complejo donde los ARN no codificantes actúan como moduladores de la actividad enzimática de la familia APOBEC3, influyendo directamente en el panorama y la respuesta celular.
 
 ##  Integrantes del Grupo
