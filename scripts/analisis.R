@@ -50,7 +50,8 @@ hist(log10(datos_expresion$Site + 1),
 #  Cerrar y guardar el archivo
 dev.off()
 
-# Nota: El eje horizontal (X): Representa el "Nivel de Expresión" (o el valor de los conteos).
-El eje vertical (Y): Representa la "Frecuencia" (cuántos genes o sitios tienen ese valor).
-Las barras: Si una barra es muy alta, significa que muchos genes tienen ese nivel de expresión.
+# Nota: 
+- El eje horizontal (X): Representa el "Nivel de Expresión" (o el valor de los conteos).
+- El eje vertical (Y): Representa la "Frecuencia" (cuántos genes o sitios tienen ese valor).
+- Las barras: Si una barra es muy alta, significa que muchos genes tienen ese nivel de expresión.
 
