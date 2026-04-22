@@ -4,13 +4,13 @@
 install.packages("readxl")
 library(readxl)
 
-# Leer los datos de la carpeta 'datos'
+# Leer los datos de la carpeta 'data'
 datos_expresion <- read_excel(file.choose())
 
 # Confirmar los datos cargados
 View(datos_expresion)
 
-# Crear el gráfico naranja que ya hiciste
+# Crear el gráfico naranja
 barplot(as.matrix(datos[1:5, 2:4]), col="orange")
 
 # Crear el archivo de imagen
@@ -37,10 +37,10 @@ hist(log10(datos_expresion$Site),
 promedio_site <- mean(datos_expresion$Site, na.rm = TRUE)
 print(paste("El promedio de la columna Site es:", promedio_site))
 
-# Indicamos a R que cree un archivo PNG en tu carpeta de trabajo
+# Indicamos a R que cree un archivo PNG en la carpeta de trabajo
 png("histograma_expresion.png", width = 800, height = 600)
 
-# Dibujamos el gráfico (con el truco del logaritmo para que se vea bien)
+# Generamos el gráfico utilizando la función logaritmica para una mejor visualización
 hist(log10(datos_expresion$Site + 1), 
      main="Distribución de Conteos del Estudio GSE245700", 
      xlab="Nivel de Expresión (Escala Log10)", 
