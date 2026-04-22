@@ -18,6 +18,9 @@ Este repositorio documenta el taller práctico de creación de un flujo bioinfor
 
 ##  Hallazgos
 - A partir del script ejecutado en R, se generó un gráfico de barras que permite observar la distribución de los conteos.
+### Interpretación del Gráfico de Expresión
+* **Distribución de Conteos:** Se observa una escala elevada en el eje Y ($5 \times 10^6$), lo que indica una alta profundidad de secuenciación.
+* **Necesidad de Normalización:** La disparidad entre la variable 'Site' y los alelos sugiere que se requiere una normalización de datos para análisis comparativos posteriores.
 
 ## Descripción de variable del imagen
 - **Site:** Representa la posición genómica específica en el ADN.
