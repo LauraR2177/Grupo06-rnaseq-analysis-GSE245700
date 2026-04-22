@@ -21,7 +21,7 @@ Investigar los sitios específicos de edición de ARN mediados por la enzima APO
 - Detección de Blancos: Se identificó que A3B se dirige específicamente a dos ARN largos no codificantes: NEAT1 y MALAT1.
 
 ##  Conclusión
-- El estudio revela un nivel de regulación complejo donde los ARN no codificantes actúan como moduladores de la actividad enzimática de la familia APOBEC3, influyendo directamente en el panorama y la respuesta celular.
+- El gráfico generado demuestra que los datos del estudio **GSE245700** han sido cargados y procesados exitosamente. La visualización revela una disparidad significativa en las escalas de conteos, lo que subraya la importancia de realizar una normalización de datos en etapas avanzadas del análisis bioinformático.
 
 ##  Integrantes del Grupo
 * **LauraR2177**
