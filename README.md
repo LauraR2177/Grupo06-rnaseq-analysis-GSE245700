@@ -12,7 +12,7 @@ Este repositorio documenta el taller práctico de creación de un flujo bioinfor
 3. Generar visualizaciones básicas (Gráficos de barras) para verificar la integridad de los datos.
 
 ## Estructura
-- `/datos`: Archivo Excel con los conteos de la serie GSE245700.
+- `/data`: Archivo Excel con los conteos de la serie GSE245700.
 - `/scripts`: Scripts de R para para la lectura y graficación de los datos.
 - `/resultados`: Capturas de pantalla del análisis y gráficos de expresión generados.
 
