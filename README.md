@@ -27,6 +27,8 @@ Este repositorio documenta el taller práctico de creación de un flujo bioinfor
 
 ##  Conclusión
 - El gráfico generado demuestra que los datos del estudio **GSE245700** han sido cargados y procesados exitosamente. La visualización revela una disparidad significativa en las escalas de conteos, lo que subraya la importancia de realizar una normalización de datos en etapas avanzadas del análisis bioinformático.
+- Se generó un histograma para evaluar la densidad de los datos en la variable principal. La mayoría de los registros se agrupan en valores de expresión altos (concentrados entre los valores 7 y 8 de la escala Log10), lo que confirma que la muestra tiene una alta profundidad de lectura y sigue una distribución típica de datos genómicos procesados con éxito.
+
 
 ##  Integrantes del Grupo
 * **LauraR2177**
